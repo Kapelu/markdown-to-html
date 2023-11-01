@@ -1,35 +1,38 @@
-# Valores de Web Eagle Stone Solutions
+<p align="center" style='margin: 0; font-size: 2rem; text-align: center'>Comandos más utilizados en Git</p>
+<br />
 
-Web Eagle Stone Solutions y cada integrante es muy importante. Es por esta razón que siempre buscamos ofrecerles una gran experiencia y que puedan encontrar aquí un espacio seguro y de contención.
+* ***git init*** : Crea un nuevo repositorio Git en el directorio actual.
 
-Teniendo en cuenta este contexto, es importante que podamos desarrollar nuestras actividades en el marco de un protocolo de disciplina que nos guíe y permita tener una mejor convivencia entre los integrantes de nuestra comunidad.
+* ***git clone*** : Copia un repositorio Git existente desde una ubicación remota (URL) a tu máquina local.
 
-Creemos importante remarcar que el mismo está basado en nuestro reglamento interno.
-En Web Eagle Stone Solutions cada una de nuestras acciones, así como este protocolo, están alineadas con determinados valores que queremos compartir y socializar con toda la comunidad para que, juntos, podamos ayudar día a día a que Web Eagle Stone Solutions sea un espacio mejor.
+* ***git add*** : Agrega un archivo al área de preparación (staging area) para que se incluya en el próximo commit.
 
-## _Es por ello que los animamos a:_
+* ***git commit -m ""*** : Crea un nuevo commit con los cambios que se encuentran en el área de preparación y le asigna un mensaje descriptivo.
 
-☮️ Respetar las opiniones de los demás y tomar esto como una
-oportunidad de aprendizaje. 
+* ***git status*** : Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados o eliminados.
 
-🌈 Valorar y abrazar la diversidad. Seamos inclusivos con nuestros
-compañeros. 
+* ***git push*** : Envía los commits locales al repositorio remoto.
 
-🤝 Poner en práctica nuestros valores para hacer de Web Eagle Stone Solutions un espacio
-seguro para cada uno de nosotros. 
+* ***git pull*** : Obtiene los últimos cambios del repositorio remoto y los fusiona con tu rama local actual.
 
-😇 Colaborar y ser solidarios con quien necesite de nuestra ayuda._
+* ***git branch*** : Muestra una lista de ramas en el repositorio. La rama actual está resaltada.
 
-👫 Actuar a través de la honestidad y valorar el esfuerzo de cada uno
-de nuestros compañeros. 
+* ***git checkout*** : Cambia a la rama especificada y actualiza el directorio de trabajo para reflejar los cambios de esa rama.
 
-💛 Contribuir a que Web Eagle Stone Solutions sea un lugar en donde prime la empatía.
-Seamos cuidadosos tanto con lo que hacemos como con lo que
-decimos.
+* ***git merge*** : Fusiona la rama especificada con la rama actual.
 
-Por último tener en cuenta que Web Eagle Stone Solutions todas las actividades que se desarrollan están pensadas para ayudar a potenciar sus carreras.
+* ***git log*** : Muestra un registro de commits, mostrando la historia de cambios realizados en el repositorio.
 
-En ese sentido no queremos dejar de hacer énfasis en que, ante cualquier tipo de actitud o comportamiento que no esté alineado o vaya en contra de los valores que abrazamos, Web Eagle Stone Solutions evaluará cada caso en particular y determinará qué tipo de medidas aplicar.
+* ***git diff*** : Muestra las diferencias entre los cambios en el directorio de trabajo y el último commit.
 
-Estamos todos unidos para un mismo propósito. Esperamos contar con
-ustedes para que Web Eagle Stone Solutions sigan siendo un lugare de respeto, aprendizaje y mucho crecimiento para cada persona que se suma a nuestra comunidad.
+* ***git reset*** : Quita un archivo del área de preparación, pero mantiene los cambios locales.
+
+* ***git remote add*** : Conecta tu repositorio local a un repositorio remoto especificado por la URL, y le asigna un nombre.
+
+* ***git stash*** : Guarda temporalmente los cambios locales en una pila (stash), permitiéndote cambiar de rama sin realizar un commit.
+
+Estos son solo algunos de los comandos más utilizados en Git. Hay muchos más comandos y opciones disponibles para gestionar el control de versiones en Git. 
+
+Puedes obtener más información sobre cada comando utilizando el comando `git help` para acceder a la documentación detallada de Git.
+
+Espero les sea de utilidad, hay mas comandos y funciones pero esas son las principales al empezar con `git`, solo es cuestion de practica para familiarizarse y trabajar sin problemas.
