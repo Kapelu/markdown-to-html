@@ -1,6 +1,10 @@
 <p align="center" style='margin: 0; font-size: 2rem; text-align: center'>Comandos más utilizados en Git</p>
 <br />
 
+Estos son solo algunos de los comandos más utilizados en Git. Hay muchos más comandos y opciones disponibles para gestionar el control de versiones en Git. 
+
+Puedes obtener más información sobre cada comando utilizando el comando `git help` para acceder a la documentación detallada de Git.
+
 * ***git init*** : Crea un nuevo repositorio Git en el directorio actual.
 
 * ***git clone*** : Copia un repositorio Git existente desde una ubicación remota (URL) a tu máquina local.
@@ -30,9 +34,5 @@
 * ***git remote add*** : Conecta tu repositorio local a un repositorio remoto especificado por la URL, y le asigna un nombre.
 
 * ***git stash*** : Guarda temporalmente los cambios locales en una pila (stash), permitiéndote cambiar de rama sin realizar un commit.
-
-Estos son solo algunos de los comandos más utilizados en Git. Hay muchos más comandos y opciones disponibles para gestionar el control de versiones en Git. 
-
-Puedes obtener más información sobre cada comando utilizando el comando `git help` para acceder a la documentación detallada de Git.
 
 Espero les sea de utilidad, hay mas comandos y funciones pero esas son las principales al empezar con `git`, solo es cuestion de practica para familiarizarse y trabajar sin problemas.
