@@ -1,7 +1,7 @@
 const d = document
 const $main = d.querySelector('main')
 
-fetch('Valores.md')
+fetch('CheatSheetGIT.md')
 	.then((res) => (res.ok ? res.text() : Promise.reject(res)))
 	.then((text) => {
 		//console.log(text)
