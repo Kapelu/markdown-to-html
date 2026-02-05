@@ -1,5 +1,4 @@
-<p align="center" style='margin: 0; font-size: 2rem; text-align: center'>Comandos más utilizados en Git</p>
-<br />
+## Comandos más utilizados en Git
 
 Estos son solo algunos de los comandos más utilizados en Git. Hay muchos más comandos y opciones disponibles para gestionar el control de versiones en Git. 
 
